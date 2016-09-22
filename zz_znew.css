@@ -1,0 +1,761 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 100%;
+    padding: 0 auto;
+    margin: 0 auto;
+    overflow-x: hidden
+}
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+body {
+    margin: 0;
+    background-color: #3eb489;
+    background: url(newphotos/newb.gif) fixed;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.65), 
+      rgba(183, 113, 113, 0.65)
+    ),  url(https://i1.wp.com/media4.giphy.com/media/3o85gb6zbPaakhpaY8/giphy.gif?resize=350%2C200) fixed;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%
+}
+.headerimage {
+    background-color: #3eb489;
+    background: url(http://i.imgur.com/Se1C0kG.gif);
+    background: url(http://images.huffingtonpost.com/2014-03-11-Shanghai_Oriental_Pearl_1000.gif);
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+    position: fixed
+}
+h1#contact {
+    height: 0;
+    width: 0
+}
+a.portfoliosinglelink {
+    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 1);
+    background-color: #fca898;
+    padding: 8px 22px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12pt;
+    letter-spacing: 6px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    width: 100%;
+    border-radius: 25px;
+    margin-right:10px;
+}
+a.portfoliosinglelink:hover {
+    background-color: rgba(5, 5, 5, 0.3);
+    background-color: #fff;
+    color: #fca898;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+a.portfoliosinglelink:active {
+    position: relative;
+    top: 10px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+
+a.portfoliosinglelink2 {
+    color: rgba(255, 255, 255, 1);
+    border:2px solid rgba(255, 255, 255, 0.41);
+    background-color: rgba(255, 255, 255, 0);
+    margin-left:10px;
+    padding: 8px 22px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12pt;
+    letter-spacing: 6px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    width: 100%;
+    border-radius: 25px
+}
+a.portfoliosinglelink2:hover {
+    background-color: rgba(5, 5, 5, 0.3);
+    background-color: #fff;
+    color: #fca898;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+a.portfoliosinglelink2:active {
+    position: relative;
+    top: 10px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+
+a.resumelink{
+    position:fixed;
+    top:10px;
+    right:20px;
+    background-color:white;
+    color:#fca898;
+    color:#333;
+    font-weight:bold;
+    text-decoration:none;
+    padding:5px 15px;
+    letter-spacing:3px;
+    border-radius:15px;
+    z-index:999999999 !important;
+}
+
+.fixbox{
+float:right;
+margin-right:25px;
+margin-top:5px;
+}
+
+.fixbox a{
+    background-color:white;
+    background-color:rgba(244,244,244,0.4);
+    color:#fca898;
+    color:white;
+    font-weight:;
+    text-decoration:none;
+    padding:5px 15px;
+    letter-spacing:3px;
+    border-radius:15px;
+    
+    margin-top:45px;
+    
+        transition:all .3s ease;
+    -webkit-transition:all .3s ease;
+    -moz-transition:all .3s ease;
+}
+
+.fixbox a:hover{
+    background-color:#fca898;
+    color:white;
+    
+    transition:all .3s ease;
+    -webkit-transition:all .3s ease;
+    -moz-transition:all .3s ease;
+}
+
+div.fixit {
+    position: fixed;
+    bottom: 40px;
+    width: 100%;
+    text-align: center
+}
+div.spacediv {
+    height: 800px;
+    position: relative;
+    background-color: red;
+    z-index: -4
+}
+
+
+
+
+
+#backshape2 {
+    display: block;
+    float: left;
+    margin-top: -150px;
+    width: 100%;
+    height: 9000px;
+    background: #3eb489;
+    top: 700px;
+    position: relative;
+    transform: skew(0deg, -10deg);
+    -ms-transform: skew(0deg, -10deg);
+    -webkit-transform: skew(0deg, -5deg)
+}
+h2.jb {
+    font-size: 20pt;
+    font-weight: 100;
+    color: #fff;
+    background-color: rgba(5, 5, 5, 0.1);
+    padding: 20px 55px;
+    width: auto;
+    display: inline-block;
+    letter-spacing: 10px
+}
+div.toptxt {
+    margin-top: 200px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: fixed
+}
+.hexagon {
+    position: relative;
+    width: 75px;
+    height: 43.3px;
+    line-height: 43.3px;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, .9);
+    margin: 21.65px 0;
+    color: #fca898;
+    font-weight: bold;
+    font-size: 19pt;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 40px
+}
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 37.5px solid transparent;
+    border-right: 37.5px solid transparent
+}
+.hexagon:before {
+    bottom: 100%;
+    border-bottom: 21.65px solid rgba(255, 255, 255, 0.9)
+}
+.hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 21.65px solid rgba(255, 255, 255, 0.9)
+}
+h1.name {
+    font-size: 26pt;
+    font-weight: 300;
+    letter-spacing: 4px;
+    color: #fff;
+    color: rgba(5, 5, 5, 0.5);
+    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.8)
+}
+h3.desc {
+    font-size: 15pt;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #fff;
+    color: rgba(5, 5, 5, 0.5);
+    color: rgba(255, 255, 255, 0.8);
+    display: inline-block
+}
+h3.desc2 {
+    font-size: 15pt;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    margin-left: 20px
+}
+h3.desc3 {
+    font-size: 15pt;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    margin-left: 20px
+}
+a.portfoliobutton {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px 35px;
+    font-size: 16pt;
+    letter-spacing: 2px;
+    font-weight: 300;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+a.portfoliobutton:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+a.portfoliobutton:active {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+p.barspace {
+    height: 0;
+    width: 100%;
+    border-top: 3px solid rgba(255, 255, 255, 0.4);
+    border-bottom: 0 solid #000
+}
+p.barspace2 {
+    height: 0;
+    width: 100%;
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 0 solid #000
+}
+p.barspace3 {
+    height: 0;
+    width: 1040px;
+    border-top: 2px solid #1a606a;
+    border-bottom: 1px solid rgba(147, 128, 128, 0.51)
+}
+div.maincontent {
+    z-index: 4;
+    float: left;
+    width: 100%;
+    height: auto;
+    background: #2e3b50;
+    background: #1a1f2c;
+    background: #1c6a74;
+    top: 100%;
+    position: relative;
+    display: block;
+    margin-bottom: 9px
+}
+div.maincontent h2 {
+    color: rgba(120, 129, 155, 0.2);
+    color: rgba(120, 129, 155, 0.9);
+    color: rgba(178, 217, 222, 0.6);
+    font-size: 22pt;
+    font-weight: 300;
+    letter-spacing: 4px
+}
+div.portfoliobox {
+    width: 500px;
+    display: inline-block;
+    background: rgba(205, 205, 205, 0.15);
+    height: 550px;
+    border-radius: 5px;
+    padding: 0 auto;
+    margin: 0 auto;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    letter-spacing: 2px;
+    font-size: 11pt;
+    font-weight: 300;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1)
+}
+div.portfoliobox img {
+    height: 255px;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px
+}
+div.portspace {
+    padding-left: 20px;
+    padding-right: 20px
+}
+div.portfoliobox h4 {
+    font-weight: 700;
+    font-size: 14pt;
+    letter-spacing: 2px
+}
+div.portfoliobox a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+div.portfoliobox a:hover {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+div.heading a {
+    color: rgba(255, 255, 255, 0.4);
+    color: rgba(5, 5, 5, 0.4);
+    border-bottom: 1px solid transparent;
+    padding-bottom: 2px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    float: right;
+    margin-right: 25px;
+    margin-top: 15px;
+    font-weight: 300;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+div.heading a:hover {
+    border-color: rgba(5, 5, 5, 0.6);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+div.about {
+    background: url(http://www.lovethispic.com/uploaded_images/182523-Futuristic-Space.gif) fixed;
+   
+    background: url(newphotos/newabout.jpeg) fixed;
+    height: 800px;
+    margin-bottom: -100px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding-top: 50px
+}
+img.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border-right: 2px solid #3eb489;
+    border-bottom: 2px solid #3eb489;
+    margin-top: 145px;
+    margin-left: 33px
+}
+input.contact {
+    width: 450px;
+    height: 44px;
+    font-size: 12pt;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: block;
+    margin-top: 10px;
+    border: 2px solid #fff
+}
+textarea.contact {
+    width: 450px;
+    height: 234px;
+    font-size: 12pt;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: block;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    resize: none;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+input:focus,
+textarea:focus {
+    outline: none;
+    color: #ff406d;
+    border-color: #ff406d;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+input.contactbutton {
+    display: block;
+    width: 450px;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #ff406d;
+    font-size: 16pt;
+    margin-top: 10px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+input.contactbutton:hover {
+    background-color: #ff6b9e;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+input.contactbutton:active {
+    background-color: #ff406d;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+div.about h1 {
+    display: block;
+    width: 450px;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #ef9b7c;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 16pt;
+    margin-top: 10px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    border: 2px solid transparent;
+    border-radius: 3px
+}
+h1#contact {
+    display: block;
+    width: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #ef9b7c;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 0;
+    margin-top: 0;
+    font-weight: 300;
+    letter-spacing: 4px;
+    border: none;
+    border-radius: 3px
+}
+div.howitworks {
+    background-color: #358d8d;
+    background: url(newphotos/works2.jpeg) fixed;
+    background-size: 100% 100%;
+    height: auto;
+    width: 100%;
+    color: #fff;
+    font-size: 20pt;
+    font-weight: 100;
+    padding-top: 205px;
+    padding-bottom: 305px;
+    display: block;
+    letter-spacing: 2px;
+    letter-spacing: 4px;
+    font-weight: bold
+}
+a.startit {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-color: #3eb489;
+    border-color: #3eb489;
+    padding: 14px 35px;
+    border-radius: 35px;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 300;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+a.startit:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    background-color: #199064;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+a.startit:active {
+    position: relative;
+    top: 8px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+a.old {
+    color: rgba(255, 255, 255, 1);
+    font-size: 10pt;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    border-bottom:1px solid transparent;
+    padding-bottom:1px;
+}
+a.old:hover {
+   
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    border-bottom:1px solid white;
+}
+a.old:active {
+    color: rgba(255, 255, 255, 0.6);
+    border-color: rgba(255, 255, 255, 0.6);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+::-webkit-scrollbar {
+    width: 8px;margin-right:24px;position:fixed;z-index:99999;
+}
+ 
+::-webkit-scrollbar-track {
+
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    background-color:#444; /* eggshell f0ead6 */
+/*    background:url(newphotos/bodybg.gif);  eggshell f0ead6 */
+    z-index:99999;
+  
+
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 50px;cursor:pointer;background-color:#21a559;/*sitegreen*/
+    /*border:3px solid #ff406d;opacity:0.3;z-index:99999;*/
+    background: #fca898;
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .animated {
+        -o-transition-property: none!important;
+        -moz-transition-property: none!important;
+        -ms-transition-property: none!important;
+        -webkit-transition-property: none!important;
+        transition-property: none!important;
+        -o-transform: none!important;
+        -moz-transform: none!important;
+        -ms-transform: none!important;
+        -webkit-transform: none!important;
+        transform: none!important;
+        -webkit-animation: none!important;
+        -moz-animation: none!important;
+        -o-animation: none!important;
+        -ms-animation: none!important;
+        animation: none!important
+    }
+    div.portfoliobox {
+        width: 90%;
+        display: block;
+        background: rgba(205, 205, 205, 0.09);
+        border-radius: 5px;
+        padding: 0 auto;
+        margin: 0 auto;
+        color: #fff;
+        margin-left: 20px;
+        margin-right: 20px;
+        letter-spacing: 2px;
+        font-size: 11pt;
+        font-weight: 300;
+        text-align: left;
+        border: 1px solid rgba(205, 205, 205, 0.29);
+        margin-top: 15px
+    }
+    div.toptxt {
+        margin-top: 100px;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        position: fixed
+    }
+    div.howitworks {
+        font-size: 14pt;
+        background: url(newphotos/works2.jpeg) relative
+    }
+    div.about {
+        background: url(newphotos/newabout.jpeg) relative
+    }
+    body {
+        background: url(newphotos/newb.gif) relative
+    }
+    input.contact,
+    textarea.contact,
+    input.contactbutton,
+    div.about h1 {
+        width: 90%
+    }
+    h1.name {
+        color: #fff;
+        font-size: 16pt
+    }
+    h3.desc,
+    h3.desc2,
+    h3.desc3 {
+        font-size: 12pt;
+        display: block;
+        margin-right: 0;
+        margin-left: 0
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    input.contact,
+    textarea.contact,
+    input.contactbutton {
+        -webkit-appearance: none;
+        -moz-appearance: none
+    }
+    .animated {
+        -o-transition-property: none!important;
+        -moz-transition-property: none!important;
+        -ms-transition-property: none!important;
+        -webkit-transition-property: none!important;
+        transition-property: none!important;
+        -o-transform: none!important;
+        -moz-transform: none!important;
+        -ms-transform: none!important;
+        -webkit-transform: none!important;
+        transform: none!important;
+        -webkit-animation: none!important;
+        -moz-animation: none!important;
+        -o-animation: none!important;
+        -ms-animation: none!important;
+        animation: none!important
+    }
+    div.portfoliobox {
+        width: 45%
+    }
+    div.howitworks {
+        background: url(newphotos/works2.jpeg);
+        background-size: 100% 100%;
+        background-position: relative
+    }
+    div.about {
+         background: url(newphotos/newabout.jpeg);
+        margin-bottom: -300px;
+        background-size: 100% 100%;
+        background-position: relative
+    }
+    body {
+        background: url(newphotos/newb.gif) 100% 100%;
+        background-position: relative;
+        background-size: 100% 100%;
+        width: 100%;
+        background-repeat: no-repeat
+    }
+    p.barspace3 {
+        width: 90%
+    }
+    div.maincontent {
+        margin-top: -45px;
+        margin-top: -45px
+    }
+}
+@media only screen and (max-width: 768px) {
+    div.portfoliobox {
+        width: 90%;
+        display: block;
+        background: rgba(205, 205, 205, 0.09);
+        border-radius: 5px;
+        padding: 0 auto;
+        margin: 0 auto;
+        color: #fff;
+        margin-left: 20px;
+        margin-right: 20px;
+        letter-spacing: 2px;
+        font-size: 11pt;
+        font-weight: 300;
+        text-align: left;
+        border: 1px solid rgba(205, 205, 205, 0.29);
+        margin-top: 15px
+    }
+}

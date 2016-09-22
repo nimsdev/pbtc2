@@ -1,0 +1,219 @@
+ @media only screen 
+  and (min-width: 375px) 
+  and (max-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+      
+         
+      
+}
+
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.overlay0{
+    background-color:transparent;
+    color:#FFFFFF;
+    font-size:11pt;
+    letter-spacing:2px;
+    margin-top:-20px;
+    height:200px;
+    text-align:center;
+}
+      
+button#showMenu{
+  display:block;
+  width:100%;
+    border-radius:0px;
+}     
+    
+      
+.effect-moveleft.animate .container {
+	-webkit-transform: translateX(-50%) rotateY(0deg) translateZ(-50px);
+	transform: translateX(-82%) rotateY(0deg) translateZ(-450px);
+}       
+  
+      
+.outer-nav.right {
+	right: 38%;
+}      
+      
+
+#audioplayer{
+	left:84%;
+} 
+      
+.popup,  .popup3{
+ margin: 0px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 0px;
+  width: 100%;
+  height:100%;
+    max-width: 100%:;
+    max-height: 100%:;
+}  
+      
+.popup2{
+    
+  margin:0px auto;
+  
+  background: rgba(255,255,255,0.9);
+  background: #eaeaea;
+  background: #fff;
+  border-radius: 0px;
+  width:100%;
+  height:100% !important;
+  
+  position: relative;
+  transition: all 1s ease-in-out;
+   overflow-y:hidden;
+ 
+}      
+ 
+      
+
+div.portfoliobox{
+    border:2px solid #e5e5e5;
+    border-radius:5px;
+    height:80%;
+    width:350px;
+    display:inline;
+    margin-left:10px;
+    margin-right:10px ;
+    margin-bottom:25px;
+    background-color:white;
+    
+    -webkit-box-shadow: 0px 2px 16px 0px rgba(50, 50, 50, 0.15);
+    -moz-box-shadow:    0px 2px 16px 0px rgba(50, 50, 50, 0.15);
+    box-shadow:         0px 2px 16px 0px rgba(50, 50, 50, 0.15);
+    
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    
+}
+      
+}
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.overlay0{
+    background-color:transparent;
+    color:#FFFFFF;
+    font-size:11pt;
+    letter-spacing:2px;
+    margin-top:200px;
+    height:200px;
+    text-align:center;
+}
+   
+      
+.overlay2{
+    color:white;
+    text-align:center;
+    margin-top:10px;
+    background-color:transparent;
+    
+}      
+      
+#audioplayer{
+	left:93%;
+}
+ 
+      
+.outer-nav.right {
+	right: 10%;
+}
+      
+      
+.popup3{
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 55%;
+  height:85%;     
+      
+  position: relative;
+  transition: all 1s ease-in-out;
+   
+}      
+      
+      
+}
+
+
+
+/* Portrait */
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.effect-moveleft.animate .container {
+	-webkit-transform: translateX(-50%) rotateY(0deg) translateZ(-50px);
+	transform: translateX(-68%) rotateY(0deg) translateZ(-450px);
+}      
+   
+.overlay0{
+    background-color:transparent;
+    color:#FFFFFF;
+    font-size:11pt;
+    letter-spacing:2px;
+    margin-top:200px;
+    height:200px;
+    text-align:center;
+}      
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 80%;
+  width:65%;
+   
+    
+  position: relative;
+  transition: all 1s ease-in-out;
+   
+}      
+      
+}
+
+
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+}

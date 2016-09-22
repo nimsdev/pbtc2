@@ -1,0 +1,474 @@
+html, body{
+    padding:0 auto;
+    margin:0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.topbar{
+   background-color:#EDDA8D;  
+    
+    background-color:white;
+/*   background-color:#3eb489;   */
+   background-color:#93b1b9;   
+    position:fixed;
+    z-index:9999;
+    width:100%;
+    height:45px;
+    top:0;
+}
+
+ 
+a.gogogo{
+    border:2px solid #333;
+    color:#333;
+    letter-spacing:3px;
+    font-size:16pt;
+    padding:15px 35px;
+    margin-top:20px;
+    cursor:pointer;
+    text-decoration:none; 
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    font-weight:bold;
+}
+ 
+
+a.gogogo:hover{
+    background-color:#333;
+    color:white;
+    
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+
+a.gogogo:active{
+    position:relative;
+    top:5px;
+}
+
+.heading{
+/*    background:url(images/workspace.jpg) no-repeat;*/
+    
+    background-color:#EDDA8D;
+    background-color:#93b1b9;
+/*    background-color:#3eb489;*/
+    
+    width:100%;
+    height:750px;
+    background-size: 15% 15%;
+    z-index:9;
+    position:fixed;    
+}
+
+.heading img{
+    height:75%;
+    height:165%;
+    padding:0 auto;
+    margin:0 auto;
+    display:block;
+    z-index:99999;
+    position:relative;
+}
+
+.headingText{
+    font-size:36pt;
+    text-align:center;
+    font-weight:100;
+    letter-spacing:5px;
+    text-transform:capitalize;
+/*    padding-top:455px;*/
+    padding-top:145px;
+   
+}
+
+a.tccenter{
+    display:inline-block;text-align:center;margin-right:10px;
+}
+
+.topbar a{
+    position:;
+    padding-top:10px;
+    left:15px;
+    color:rgba(5,5,5,0.2);
+    color:rgba(255,255,255,0.6);
+    letter-spacing:2px;
+    font-weight:400;
+    text-decoration:none;
+    cursor:pointer;
+    padding-bottom:2px;
+    border-bottom:1px solid transparent;
+    transition:all .3s ease;
+    -webkit-transition:all .3s ease;
+    -moz-transition:all .3s ease;
+}
+
+.topbar a:hover{
+    color:rgba(5,5,5,0.4);
+    color:rgba(255,255,255,0.8);
+    border-bottom-color:rgba(255,255,255,0.8);
+    
+    transition:all .3s ease;
+    -webkit-transition:all .3s ease;
+    -moz-transition:all .3s ease;
+}
+
+.topbar a:active{
+/*    position:absolute;*/
+/*    top:5px;*/
+    
+    
+  
+    color:rgba(255,255,255,0.4);
+    border-bottom-color:rgba(255,255,255,0.4);
+    
+    transition:all .3s ease;
+    -webkit-transition:all .3s ease;
+    -moz-transition:all .3s ease;
+}
+
+
+a.portfolio{
+    display:inline;
+   left:92%;
+}
+
+
+.content{
+    height:auto;
+    background-color:#FFFFFF;
+    top:750px;
+   color:#333;
+     padding-top:55px;
+    position:relative;
+    z-index:999;
+    font-size:14pt;
+    letter-spacing:2px;
+}
+
+.content p{
+    width:500px;
+    font-weight:100;
+    
+}
+
+.content h1{
+    font-size:44pt;
+    letter-spacing:4px;
+     padding-top:55px;
+    color:#333;
+}
+
+.spaceheight{
+    height:450px;display:block;
+}
+
+.spaceheight2{
+    height:190px;display:block;
+}
+
+img.vec-bulb{
+    width:250px;
+    height:300px;
+    padding-bottom:45px;
+    opacity:0.75;
+}
+
+
+img.vec-envelope{
+    width:250px;
+    height:200px;
+    padding-bottom:45px;
+    opacity:0.75;
+}
+
+
+img.vec-clock{
+    width:300px;
+    height:300px;
+    padding-bottom:45px;
+    opacity:0.75;
+}
+
+
+a.mainlink{
+    letter-spacing:2px;
+    color:#ff406d;
+    text-decoration:none;
+    cursor:pointer;
+    
+}
+
+a.mainlink:hover{
+    text-decoration:underline;
+}
+
+
+.footer{
+    background-color:#333;
+    height:1400px;
+    width:100%;
+    position:relative;
+    top:0;
+    margin:0 auto;
+    margin-top:0;
+}
+
+
+
+ @media only screen 
+  and (min-width: 375px) 
+  and (max-width: 667px) 
+ { 
+      
+      .heading img{
+          width:70%;
+          height:400px;
+      }        
+      
+     
+     .headingText{
+         padding-top:50px;
+     }
+     
+     .topbar{
+         display:none;
+     }
+     
+     
+     html, body{
+         overflow-x:none;
+     }
+     
+     .content p{
+         width:300px;
+     }
+     
+     .content h1{
+         font-size:27pt;
+     }
+     
+     
+     input.contactbutton, input.contact, textarea.contact {width:80%;}
+}
+
+input.contact {
+    /*    border:1px solid rgba(51, 51, 51, 0.5);*/
+    
+    border: 2px solid rgba(51, 51, 51, 1);
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    font-weight: 100;
+    font-weight: bold;
+    outline: none;
+    margin-top: 30px;display:block;
+    color: 333;
+    width: 30%;
+    font-size: 11pt;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+input.contact:focus {
+    color: #93b1b9;
+    border-bottom-color: #93b1b9;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+textarea.contact {
+    /*    border:1px solid rgba(51, 51, 51, 0.5);*/
+    
+    border: 2px solid rgba(51, 51, 51, 1);
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    font-weight: 100;
+    font-weight: bold;
+    outline: none;
+    margin-top: 40px;
+    color: 333;
+    width: 30%;
+    font-size: 11pt;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    resize: none;
+    height: 200px;display:block;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+textarea.contact:focus {
+    color: #93b1b9;
+    border-bottom-color: #93b1b9;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+a.contact {
+    display: inline-block;
+    width: 40%;
+    height: 45px;
+    line-height: 45px;
+    margin-top: 45px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #333;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 13pt;
+    font-weight: 100;
+    letter-spacing: 5px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+a.contact:hover {
+    background-color: #3eb489;
+    text-decoration: none;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+a.contact:active {
+    background-color: #9f8717;
+    text-decoration: none;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+a.contact2 {
+    display: inline-block;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    margin-top: 25px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #333;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #333;
+    font-size: 13pt;
+    font-weight: 800;
+    letter-spacing: 5px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+a.contact2:hover {
+    color: #93b1b9;
+    border-color: #93b1b9;
+    text-decoration: none;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+a.contact2:active {
+    position: relative;
+    top: 8px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+input.contactbutton:hover {
+    color: #93b1b9;
+    border-color: #93b1b9;
+    text-decoration: none;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+input.contactbutton {
+    display: inline-block;
+    width: 30%;
+    height: 45px;
+    line-height: 25px;
+    margin-top: 25px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #333;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #333;display:block;
+    font-size: 13pt;
+    font-weight: 800;
+    letter-spacing: 5px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+input.contactbutton:active {
+    position: relative;
+    top: 8px;
+    outline: none;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+input.contactbutton:focus {
+    outline: none;
+}
+
+ @media only screen 
+  and (min-width: 320px) 
+  and (max-width: 640px) 
+ { 
+      
+      .heading img{
+          width:90%;
+          height:300px;margin-bottom:-150px;
+      }        
+      
+     
+     .headingText{
+         padding-top:0px;font-size:28pt;
+     }
+     
+     .topbar{
+         display:none;
+     }
+     
+     
+     html, body{
+         overflow-x:none;
+     }
+     
+     .content{font-weight: normal;color:#333;}
+     
+     .content p{
+         width:300px;color:#333;font-weight:normal;
+     }
+     
+     .content h1{
+         font-size:27pt;
+         color:#333;font-weight:normal;
+     }
+     
+     a.gogogo{font-weight:bold;}
+     
+     table{
+         width:100%;
+     }
+     
+     
+      input.contactbutton, input.contact, textarea.contact {width:80%;}
+}
